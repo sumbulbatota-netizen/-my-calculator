@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+    *{
+  }
+body {
+    background-color: #F3EEFF;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background-color: #DCD0F4;
+    width: 320PX;
+    padding: 22px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(90, 60, 130, 0.2);
+}
+h2 {
+    color: #65528B;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.display {
+    background-color: #FBF9FF;
+    color: #51416D;
+    height: 70px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: right;
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+button{
+    background-color: #FBF9FF;
+    color: #51416D;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 5px;
+    font-size: 18px;
+    cursor: ponter;
+}
+button:hover {
+    background-color: #EAE0FA;
+}
+.special {
+       background-color: #C8B4EB;
+}
+.operator{
+    background-color: #9878CF;
+    color: white;
+}
+.equals {
+    background-color: #7855B8;
+    color: white;
+}
+.special:hovre,
+operator:hover,
+eqyals:hover {
+    opacity: 0.8;
+}  
+ </style>
+
+</head>
+<body>
+          <div class="calculator">
+          <h2>My Calculator</h2>
+
+          <div class="display">0</div>
+          <div class="buttons">
+             <button
+class="special">Ac</button>
+              <button
+class="special">+/-</button>
+              <button
+class="special">%</button>
+             <button
+class="operator">/</button>
+        
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button
+class="operator">x</button> 
+           
+             <button>4</button>
+              <button>5</button>
+               <button>6</button>
+                <button
+class="operator">-</button>
+         
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button
+class="operator">+</button>
+
+               <button>0</button>
+               <button>.</button>
+               <button>x</button>
+               <button
+class="equals">=</button>
+         </div>
+   </div>            
+</body>
+</html>
